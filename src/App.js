@@ -30,20 +30,6 @@ const App = () => {
     fn();
   }, []);
 
-  // const getList = async () => {
-  //   try {
-  //     const results = getData();
-      
-  //     if (results.length === 20) {
-  //       return results;
-  //     } else {
-  //       throw results;
-  //     }
-  //   } catch(e) {
-  //     return e;
-  //   }
-  // };
-
   return (
     <div className="App">
       <header className="App-header">
