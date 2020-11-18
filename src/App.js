@@ -13,21 +13,21 @@ const App = () => {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    const fn = async () => {
+    const fetchData = async () => {
       try {
-        const res = await getData();
+        const listOfItems = await getData();
 
-        if (res.length === 20) {
-          setList(res);
+        if (listOfItems.length === 20) {
+          setList(listOfItems);
         } else {
-          throw res;
+          throw listOfItems;
         }
       } catch(e) {
         setError(e.message);
       }
     };
     
-    fn();
+    fetchData();
   }, []);
 
   return (
