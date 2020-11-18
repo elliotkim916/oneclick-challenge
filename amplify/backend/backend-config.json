@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "oneclicktest1ac1664b": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

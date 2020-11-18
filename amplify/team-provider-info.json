@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oneclicktest-dev-163609-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695428262376:role/amplify-oneclicktest-dev-163609-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695428262376:role/amplify-oneclicktest-dev-163609-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-oneclicktest-dev-163609-deployment",
+      "UnauthRoleName": "amplify-oneclicktest-dev-163609-unauthRole",
+      "StackName": "amplify-oneclicktest-dev-163609",
+      "StackId": "arn:aws:cloudformation:us-west-2:695428262376:stack/amplify-oneclicktest-dev-163609/0ecde740-2936-11eb-b1c6-0a8a148431ae",
+      "AmplifyAppId": "d3scm7an3flu4g"
+    },
+    "categories": {
+      "auth": {
+        "oneclicktest1ac1664b": {}
+      }
+    }
+  }
+}
